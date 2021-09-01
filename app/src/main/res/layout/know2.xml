@@ -1,0 +1,252 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#FFFFFF"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear4"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview10"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Language: "
+						android:textSize="18sp"
+						android:textColor="#000000" />
+					<Spinner
+						android:id="@+id/spinner1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:spinnerMode="dropdown" />
+				</LinearLayout>
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="News Version 2.7 5th Update"
+					android:textSize="30sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="This update topic is Lily, The another Water Plant."
+					android:textSize="25sp"
+					android:textColor="#000000" />
+				<ImageView
+					android:id="@+id/imageview1"
+					android:layout_width="300dp"
+					android:layout_height="300dp"
+					android:src="@drawable/updatly_nature_6"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Image Credits Wikipedia"
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Summary"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Lilies are tall in height in 2 to 6 feet (60 - 180 cm). The flowers are large, mostly fragrant and has a wide range of colors including white, yellow, orange, pink, red, purple. The flowers will flower in late spring or summer."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Toxic to Cats\?"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Some lilium species are toxic to cats. Really, It's true. If you see cat eating lily with pollen, immediately take to Vetinary Hospital. Some lilium have parts that can intrupt Cat's Excretery system, This can also lead to cat's kidney failure."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview8"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Uses\?"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview9"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="China, Taiwan, South Korea uses many species of Lilium as their traditional medicine."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview13"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="News Update 2.8 6th Update"
+					android:textSize="30sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview14"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="This update topic is Oleander."
+					android:textSize="25sp"
+					android:textColor="#000000" />
+				<ImageView
+					android:id="@+id/imageview2"
+					android:layout_width="300dp"
+					android:layout_height="200dp"
+					android:src="@drawable/updatly_nature_7"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview15"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Image Credits Wikipedia"
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview16"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Summary"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview17"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Oleander grows up to 2 - 6 metres long. It is most commonly seen as a shrug but can also be a small tree with single trunk. Oleander can be found in colors white, pink and red."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview18"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Toxic"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview19"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Oleander had historically said to be toxic because some parts of the plant is toxic, expecially animals when consumed in large quantities. Eating the toxic parts of plant causes nausea, vomiting, excess salaiva, abdominal pain, diarrhea."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview20"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Treatment"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview21"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Oleander Toxic can cause immediate effect once it has been eaten. In that case, You need an immediate medical care. \nDigoxin immune fab is the way out to cure an oleander poisoning but not highly recommended due to its side effects."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<LinearLayout
+					android:id="@+id/linear3"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview12"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="&lt;"
+						android:textSize="20sp"
+						android:textStyle="bold"
+						android:textColor="#000000" />
+					<TextView
+						android:id="@+id/textview11"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="center_horizontal"
+						android:text="2nd Page"
+						android:textSize="20sp"
+						android:textStyle="bold"
+						android:textColor="#000000"
+						android:layout_weight="1" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

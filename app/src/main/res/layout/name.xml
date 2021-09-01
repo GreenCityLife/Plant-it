@@ -1,0 +1,75 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Start Everything New"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<EditText
+			android:id="@+id/edittext1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="@android:color/transparent"
+			android:textSize="18sp"
+			android:textColor="#000000"
+			android:hint="Enter Your Name"
+			android:textColorHint="#607D8B" />
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="200dp"
+			android:layout_height="60dp"
+			android:padding="8dp"
+			android:text="Start!"
+			android:textSize="25sp"
+			android:textColor="#000000"
+			android:translationY="10.0dp"
+			android:layout_gravity="center_horizontal" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal"
+			android:text="------------------(OR)------------------"
+			android:textSize="18sp"
+			android:textColor="#000000"
+			android:translationY="28.0dp" />
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Continue Game"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#000000"
+			android:translationY="40.0dp" />
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="200dp"
+			android:layout_height="60dp"
+			android:padding="8dp"
+			android:text="Restore!"
+			android:textSize="25sp"
+			android:textColor="#000000"
+			android:translationY="50.0dp"
+			android:layout_gravity="center_horizontal" />
+	</LinearLayout>
+</LinearLayout>

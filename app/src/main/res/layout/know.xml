@@ -1,0 +1,527 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#FFFFFF"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:background="#FFFFFF"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear5"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview28"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Language: "
+						android:textSize="18sp"
+						android:textColor="#000000" />
+					<Spinner
+						android:id="@+id/spinner1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:spinnerMode="dropdown" />
+				</LinearLayout>
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="News Intial Release Version 1.0"
+					android:textSize="30sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="This update topic is Rafflesia, The World's Largest Flower."
+					android:textSize="25sp"
+					android:textColor="#000000" />
+				<ImageView
+					android:id="@+id/imageview1"
+					android:layout_width="300dp"
+					android:layout_height="400dp"
+					android:src="@drawable/updatly_nature"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Image Credits Wikipedia"
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Summary"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Rafflesia Arnoldii are ony seen in Rainforests in SouthAfrica. It is a diameter of 106 cm shortly close to a meter. It weights 10 kg and are a lifespan of just 5 to 1 week. It can even hold a 2 years old baby. It smells like some rotten meat."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="What They Eat\?"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="They are capable of eating insects, flies and even sometimes frogs and if anyone feed them a small flesh of human they can eat."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview8"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Any Uses\?"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview9"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="The main use is it will attract many foreign tourists has It's The World's biggest Flower."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:background="#FFFFFF"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview10"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="News 1st Update Version 2.0"
+					android:textSize="30sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview11"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="This update topic is Watermeal, The World's Smallest Flowering Plant."
+					android:textSize="25sp"
+					android:textColor="#000000" />
+				<ImageView
+					android:id="@+id/imageview2"
+					android:layout_width="400dp"
+					android:layout_height="400dp"
+					android:src="@drawable/updatly_nature_2"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview12"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Image Credits Wikipedia"
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview13"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Summary"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview14"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="textview"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview15"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="How to get rid of them\?"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview16"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="To get rid off them, You have to introduce pond fishes like Koi and Grass Carp. We recommend Koi because it will eat the Watermeal immediately meanwhile grass carp will eat other plants first. Also some ducks near pond will be useful."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview17"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Is Watermeal Edible\?"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview18"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Surprisingly, Yes. It is edible to humans. All Woffia Genus are edible to humans and the Watermeal the tiniest and tastiest of all Woffia Genus. But don't eat now, consult your doctor first."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear4"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview19"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="News 2nd Update Version 2.2"
+					android:textSize="30sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview20"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="This update topic is Jasmines, The World's Fragnent Flower."
+					android:textSize="25sp"
+					android:textColor="#000000" />
+				<ImageView
+					android:id="@+id/imageview4"
+					android:layout_width="400dp"
+					android:layout_height="250dp"
+					android:src="@drawable/updatly_nature_3"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview21"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Image Credits Balcony Garden Web"
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview22"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Summary"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview23"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Jasmines can be either Diceduous (leaves falling in the autumn) or Evergreen (green all year around). The flowers are around 2.5 cm (0.98 inches). These flowers are very likely to be white or yellow, In some rare cases these are slightly red."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview24"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Jasmine and World"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview25"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="textview"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview26"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Uses\?"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview27"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="textview"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear6"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview29"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="News 3rd Update Version 2.5"
+					android:textSize="30sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview30"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="This update topic is Rose, The another fragrant flower."
+					android:textSize="25sp"
+					android:textColor="#000000" />
+				<ImageView
+					android:id="@+id/imageview5"
+					android:layout_width="400dp"
+					android:layout_height="300dp"
+					android:src="@drawable/updatly_nature_4"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview31"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Image Credits Gardening know how"
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview32"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Summary"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview33"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="About 50 million years ago, the first rose were found in America. But today's famous red rose come from the Chinese Red Rose which is found from the 18th Century. Most of us, Beleive that roses were grown earlier civilization 50000 years ago."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview34"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Growing"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview35"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="textview"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview36"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="All Uses"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview37"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="textview"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear7"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview38"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="News 4th Update Version 2.6"
+					android:textSize="30sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview39"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="This update topic is Lotus, The India's national flower."
+					android:textSize="25sp"
+					android:textColor="#000000" />
+				<ImageView
+					android:id="@+id/imageview7"
+					android:layout_width="300dp"
+					android:layout_height="300dp"
+					android:src="@drawable/updatly_nature_5"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview40"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Image Credits Onzaden"
+					android:textSize="18sp"
+					android:textColor="#000000"
+					android:layout_gravity="center_horizontal" />
+				<TextView
+					android:id="@+id/textview41"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Summary"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview42"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Lotus plants will grow in the flood areaa and delta regions. A Lotus leaves about hundreds and thousands of seeds every year. Some will sprout and most of the animals eat the seeds while some will escape and grow as a new lotus."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview43"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Water Plant"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview44"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="The Lotus known as the king of the Water plants. If a lotus in the pond, it will be the pond's respect. Also, if also 1 lotus in the pond, people will say, it is a lotus pond."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview45"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Uses"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/textview46"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="The rhizomes of Lotus are widely conserved as a vegetable in Asian countries expecially in China, Japan and India. The are selled whole or cut into pieces are usually fresh, frozen or canned. Lotus Vegetables are fried or maked as soups, syrups."
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<LinearLayout
+					android:id="@+id/linear8"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview47"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="center_horizontal"
+						android:text="1st Page"
+						android:textSize="20sp"
+						android:textStyle="bold"
+						android:textColor="#000000"
+						android:layout_weight="1" />
+					<TextView
+						android:id="@+id/textview48"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="&gt;"
+						android:textSize="20sp"
+						android:textStyle="bold"
+						android:textColor="#000000" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
